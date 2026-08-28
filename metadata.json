@@ -1,0 +1,51 @@
+{
+  "team_id": "team_28",
+  "team_name": "RAG team silicon sample study",
+  "contact": "max.pellert@bsc.es",
+  "creators": [
+    {
+      "name": "Adeeba, Farah",
+      "affiliation": "University of Konstanz",
+      "orcid": ""
+    },
+    {
+      "name": "Ma, Jing",
+      "affiliation": "University of Konstanz",
+      "orcid": ""
+    },
+    {
+      "name": "Ferreira Goncalves, Marcia",
+      "affiliation": "Graphwise",
+      "orcid": ""
+    },
+    {
+      "name": "Pellert, Max",
+      "affiliation": "Barcelona Supercomputing Center",
+      "orcid": ""
+    }
+  ],
+  "abstract": "",
+  "license": "CC-BY-4.0",
+  "tier": 3,
+  "entry": "primary",
+  "approach_family": "direct forecast, single model, literature-conditioned (RAG)",
+  "models": [
+    "gpt-4o"
+  ],
+  "code_repository": "https://github.com/lieblingszz/team28-tier3-primary",
+  "code_doi": null,
+  "disclosure_class": "A",
+  "escrow_doi": null,
+  "zenodo_doi": null,
+  "prediction_files": [
+    {
+      "file": "predictions/team_28_T3_primary_v1.csv",
+      "sha256": "9f464ffd442af872a31b73721c5572679f565aaf1e11d3638eca7799518c1b10"
+    }
+  ],
+  "coverage": {
+    "interventions": 16,
+    "outcomes": 13
+  },
+  "blinding_attestation": true
+}
