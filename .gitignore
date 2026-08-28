@@ -9,5 +9,8 @@ maintainer/
 .RData
 .Rproj.user/
 .DS_Store
+<<<<<<< HEAD
 __pycache__/
 *.pyc
+=======
+>>>>>>> e1c13b5b9aefcb5b23a3b9d8cf5c6a09771c1dd8
