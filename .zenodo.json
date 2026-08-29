@@ -1,0 +1,58 @@
+{
+  "upload_type": "software",
+  "title": "Silicon Sample Benchmark — Tier 3 (direct effect forecast) submission (team team_28)",
+  "version": "1.0-t3",
+  "language": "eng",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Adeeba, Farah",
+      "affiliation": "University of Konstanz"
+    },
+    {
+      "name": "Ma, Jing",
+      "affiliation": "University of Konstanz"
+    },
+    {
+      "name": "Ferreira Goncalves, Marcia",
+      "affiliation": "Graphwise"
+    },
+    {
+      "name": "Pellert, Max",
+      "affiliation": "Barcelona Supercomputing Center"
+    }
+  ],
+  "description": "<p>This repository directly predict treatment-effect using GPT-4o with literature-conditioned retrieval-augmented generation. Predictions are calibrated and reported as average treatment effects for 16 interventions across 13 outcomes.<\/p>",
+  "keywords": [
+    "Silicon Sample Benchmark",
+    "silicon sampling",
+    "large language models",
+    "computational social science",
+    "survey methodology",
+    "public opinion",
+    "climate communication",
+    "treatment effect prediction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/amendment_preregistration.html",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/lieblingszz/team28-tier3-primary",
+      "relation": "isCompiledBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Team team_28. Disclosure class A."
+}
