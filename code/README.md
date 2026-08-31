@@ -15,7 +15,7 @@ files — this is a clean copy, not an edit.
 | `tier3_pipeline_parallel_fulltext.py` |  Parallel + full-text + RAG, no truncation. 
 | `tier3_pipeline.py` | Not legacy — the script above imports its core logic directly (`MODEL_CONFIG`, `CALIBRATION_FACTOR`, prompt helpers, calibration, aggregation, file-saving). Required. |
 | `rag_vector_db.py` | `VectorRAG` class — loads and queries the vector database. |
-| `chroma_rag_db/` | The already-built vector index (795 chunks from 40+ papers). Required at runtime — without it, `VectorRAG` would silently fall back to a tiny 3-item hardcoded seed list instead of your real corpus, with no error. Don't skip this folder. |
+| `chroma_rag_db/` | The already-built vector index (1,372 records from 43 PDF papers). Required for the full RAG configuration at runtime; without an API key and access to the persistent index, `VectorRAG` uses its 24-record hardcoded TF-IDF fallback corpus instead of the full literature corpus. Don't skip this folder. |
 | `LLMmegastudy-main/simulation/stimuli/` | The 16 intervention text files. |
 | `LLMmegastudy-main/simulation/data/survey_items.json` | The 13 outcome item definitions. |
 | `requirements.txt` | `pip install -r requirements.txt` |
