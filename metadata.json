@@ -33,10 +33,10 @@
     "gpt-4o"
   ],
   "code_repository": "https://github.com/lieblingszz/team28-tier3-secondary-1",
-  "code_doi": null,
+  "code_doi": 10.5281/zenodo.22211912,
   "disclosure_class": "A",
   "escrow_doi": null,
-  "zenodo_doi": null,
+  "zenodo_doi": 10.5281/zenodo.22211912,
   "prediction_files": [
     {
       "file": "predictions/team_28_T3_secondary-1_v1.csv",
