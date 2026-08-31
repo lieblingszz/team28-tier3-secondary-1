@@ -8,19 +8,23 @@
   "creators": [
     {
       "name": "Adeeba, Farah",
-      "affiliation": "University of Konstanz"
+      "affiliation": "University of Konstanz",
+      "orcid": "0009-0001-1740-8657"
     },
     {
       "name": "Ma, Jing",
-      "affiliation": "University of Konstanz"
+      "affiliation": "University of Konstanz",
+      "orcid": "0009-0007-8951-9819"
     },
     {
       "name": "Ferreira Goncalves, Marcia",
-      "affiliation": "Graphwise"
+      "affiliation": "Graphwise",
+      "orcid": "0000-0001-5337-4637"
     },
     {
       "name": "Pellert, Max",
-      "affiliation": "Barcelona Supercomputing Center"
+      "affiliation": "Barcelona Supercomputing Center",
+      "orcid": "0000-0002-6557-7607"
     }
   ],
   "description": "<p>This repository directly predict treatment-effect using GPT-4o with literature-conditioned retrieval-augmented generation. Predictions are calibrated and reported as average treatment effects for 16 interventions across 13 outcomes.<\/p>",
@@ -48,7 +52,7 @@
       "resource_type": "publication-preprint"
     },
     {
-      "identifier": "https://github.com/lieblingszz/team28-tier3-primary",
+      "identifier": "https://github.com/lieblingszz/team28-tier3-secondary-1",
       "relation": "isCompiledBy",
       "scheme": "url",
       "resource_type": "software"

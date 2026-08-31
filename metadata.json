@@ -6,40 +6,40 @@
     {
       "name": "Adeeba, Farah",
       "affiliation": "University of Konstanz",
-      "orcid": ""
+      "orcid": "0009-0001-1740-8657"
     },
     {
       "name": "Ma, Jing",
       "affiliation": "University of Konstanz",
-      "orcid": ""
+      "orcid": "0009-0007-8951-9819"
     },
     {
       "name": "Ferreira Goncalves, Marcia",
       "affiliation": "Graphwise",
-      "orcid": ""
+      "orcid": "0000-0001-5337-4637"
     },
     {
       "name": "Pellert, Max",
       "affiliation": "Barcelona Supercomputing Center",
-      "orcid": ""
+      "orcid": "0000-0002-6557-7607"
     }
   ],
   "abstract": "This repository directly predict treatment-effect using GPT-4o with literature-conditioned retrieval-augmented generation. Predictions are calibrated and reported as average treatment effects for 16 interventions across 13 outcomes.",
   "license": "CC-BY-4.0",
   "tier": 3,
-  "entry": "primary",
+  "entry": "secondary-1",
   "approach_family": "direct forecast, single model, literature-conditioned (RAG)",
   "models": [
     "gpt-4o"
   ],
-  "code_repository": "https://github.com/lieblingszz/team28-tier3-primary",
+  "code_repository": "https://github.com/lieblingszz/team28-tier3-secondary-1",
   "code_doi": null,
   "disclosure_class": "A",
   "escrow_doi": null,
   "zenodo_doi": null,
   "prediction_files": [
     {
-      "file": "predictions/team_28_T3_primary_v1.csv",
+      "file": "predictions/team_28_T3_secondary-1_v1.csv",
       "sha256": "9f464ffd442af872a31b73721c5572679f565aaf1e11d3638eca7799518c1b10"
     }
   ],
